@@ -38,6 +38,8 @@
 </svelte:head>
 
 <PageTransition>
+	<div class="p-32" class:bg-red-500={true}>This red background is removed in prod</div>
+
 	<h1 class="uppercase font-bold">Great success!</h1>
 
 	<figure>
